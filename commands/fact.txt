@@ -1,0 +1,1 @@
+$(eval const factList=$(urlfetch json https://raw.githubusercontent.com/c-scholz/tm-shenanigans/master/facts.json); const factIdx=factList.findIndex(fact => fact.includes(`#${$(1)}`)); const factNo = factIdx> -1 ? factIdx : Math.floor(Math.random() * factList.length); factList[factNo])

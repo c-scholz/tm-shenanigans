@@ -1,0 +1,5 @@
+$(eval const name = `$(1)`.length > -1 ? `$(1)` : `STREAMER_NAME`;
+const names = $(urlfetch json https://raw.githubusercontent.com/c-scholz/tm-shenanigans/master/nicknames.json);
+const emote = `EMOTE`;
+const defaultResponse = `Can't you write your own name? ResidentSleeper`;
+`$(user)`.toLowerCase() !== name.toLowerCase() && names.hasOwnProperty(name) ? `Did you mean ${names[name][Math.floor(Math.random()*names[name].length)]} ? ${emote}` : defaultResponse)
