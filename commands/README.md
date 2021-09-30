@@ -1,6 +1,6 @@
 # How to add commands
 
-To add the commands to your nightbot copy them from the text file into a command you set up in your nightbot dashboard under `commands > custom`.
+To add the commands to your Nightbot, copy them from the text file into the `Message` field of a new command you set up in your Nightbot dashboard under [`commands > custom`](https://nightbot.tv/commands/custom) or add them by using `!addcom [commandname_with_no_spaces] [command code]`
 
 
 # fact
