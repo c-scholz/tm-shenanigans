@@ -1,6 +1,6 @@
 # How to add commands
 
-To add the commands to your nightbot add them in your nightbot dashboard under `commands > custom`.
+To add the commands to your nightbot copy them from the text file into a command you set up in your nightbot dashboard under `commands > custom`.
 
 
 # fact
