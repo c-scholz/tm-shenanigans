@@ -14,7 +14,7 @@ Returns a random fact or a fact that matches the number in the given parameter.
 # nickname
 
 To use the command replace the following words in the command with the corresponding text:
-| --- | --- |
+| ------------- | ---------------------------------------------- |
 | STREAMER_NAME | default twitch name that should be queried for |
 | EMOTE         | default emote that's returned in the message   |
 
