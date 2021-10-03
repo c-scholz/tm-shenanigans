@@ -14,12 +14,14 @@ Returns a random fact or a fact that matches the number in the given parameter.
 
 # nickname
 
-To use the command replace the following words in the command with the corresponding text:
+To use the command replace the following words in the command with the corresponding text.
+Use `${name}` to display the name in the texts.
+Only replace text inside the backticks ``` `TEXT_TO_REPLACE` ```.
 | VARIABLE | value |
 | --- | ---  |
 | USER_MSG   | message that displays if user requesting themselves                         |            
 | MSG        | default message that's returned when no user found                          |
-| NAME_TEMPL | template text to display found examples - `${name}` displays the found name |
+| NAME_TEMPL | template text to display found examples                                     |
 
 
 **Usage**
