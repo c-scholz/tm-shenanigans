@@ -2,7 +2,7 @@ $(eval
 user=`$(user)`.toLowerCase();
 name=`$(1)`===`null`?user:`$(1)`.toLowerCase().replace('@','');
 USER_MSG=`Can't you write your own name? LUL`;
-MSG=`${name} ! YEEP`;
+MSG=`${name} ! YEP`;
 NAME_TEMPL=(name)=>`Did you mean ${name} ? Kappa`;
 names = $(urlfetch json https://raw.githubusercontent.com/c-scholz/tm-shenanigans/master/nicknames.json);
 if(names.hasOwnProperty(name)){MSG=NAME_TEMPL(names[name][Math.floor(Math.random()*names[name].length)])}
