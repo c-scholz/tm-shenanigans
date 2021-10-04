@@ -1,7 +1,7 @@
 $(eval 
 user=`$(user)`.toLowerCase();
 name=`$(1)`===`null`?user:`$(1)`.toLowerCase().replace('@','');
-USER_MSG=`Can't you write your own name? LUL`;
+USER_MSG=`You already know your name LUL`;
 MSG=`${name} ! YEP`;
 NAME_TEMPL=(name)=>`Did you mean ${name} ? Kappa`;
 names = $(urlfetch json https://raw.githubusercontent.com/c-scholz/tm-shenanigans/master/nicknames.json);
