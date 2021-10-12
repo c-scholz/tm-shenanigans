@@ -11,6 +11,9 @@ To add the commands to your Nightbot, copy them from the text file into the `Mes
 
 Returns a random fact or a fact that matches the number in the given parameter.
 
+> Note:
+> If you want to contribute a fact to be publicly available create a Pull Request with the change in the [facts.json](https://github.com/c-scholz/tm-shenanigans/blob/master/facts.json) file.
+
 
 # nickname
 
@@ -28,7 +31,10 @@ Only replace text inside the backticks ``` `TEXT_TO_REPLACE` ```.
 
 `!nickname [twitch_username]`
 
-Returns a random nickname for the default STREAMER_NAME or given username. Will return a default sentence if name cant be found or user issueing the command is the same as the name from the default or param.
+Returns a random nickname of the issued user. If the user has no nickname returns a default message. If user issueing the command is the user that's requested it returns a user message.
+
+> Note:
+> If you want to contribute your nickname to be publicly available create a Pull Request with the change in the [nicknames.json](https://github.com/c-scholz/tm-shenanigans/blob/master/nicknames.json) file.
 
 
 # at
