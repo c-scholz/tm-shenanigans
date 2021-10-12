@@ -76,3 +76,13 @@ To use the command replace the following keywords in the command with the corres
 `!rank`
 
 Returns the Matchmaking rank of the player set in the command.
+
+# bonk
+
+To use the command replace `PLAYER` in the command code with the Streamer's name.
+
+**Usage**
+
+`!bonk`
+
+Returns a message with a counter.
