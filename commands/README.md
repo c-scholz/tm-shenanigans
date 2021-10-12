@@ -33,9 +33,13 @@ Returns a random nickname for the default STREAMER_NAME or given username. Will 
 
 # at
 
-To use the command replace `CAMPAIGN_ID` in the command code with a campaign's Id:
+To use the command replace `CAMPAIGN_ID` in the command code with an official campaign's Id.
 
 You can find the campaign Ids on [trackmania.io](https://trackmania.io/#/campaigns)
+
+> Note:
+> You can also set the command up to use a club campaign.
+> For this instead replace `https://trackmania.io/api/officialcampaign/CAMPAIGN_ID` with `https://trackmania.io/api/campaign/CAMPAIGN_ID`
 
 **Usage**
 
