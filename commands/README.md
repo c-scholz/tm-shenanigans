@@ -46,3 +46,11 @@ You can find the campaign Ids on [trackmania.io](https://trackmania.io/#/campaig
 `!at [track_number]`
 
 Returns the author time of the given track number of a campaign.
+
+# cotd
+
+**Usage**
+
+`!cotd`
+
+Returns the current TOTD with AT. Tells when next 7pm COTD is or whether Qualification/Knockout stage is in progress.
