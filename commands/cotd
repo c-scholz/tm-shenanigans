@@ -1,0 +1,8 @@
+$(eval 
+m=$(urlfetch json https://trackmania.io/api/totd/0).days.at(-1).map;
+d=new Date();
+a=m.authorScore;
+l=a>60000?15:17;
+n=(m.filename+"");
+n=n.slice(0,-8);
+"Current TOTD is "+n+" by "+m.authorplayer.name+". Author Time: "+(new Date(a).toISOString().slice(l, -1))+(d.getUTCHours()==17?" "+(d.getUTCMinutes<15?"Qualification":"Knockout")+" stage in progress":", next new COTD is in $(countdown 19:00 CET)"))
