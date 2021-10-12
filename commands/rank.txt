@@ -1,0 +1,1 @@
+	$(eval t=$(urlfetch json https://trackmania.io/api/player/PLAYER_ID).matchmaking[0].info; "PLAYER is rank " + t.rank + " in the world with " + t.score + " points.")
