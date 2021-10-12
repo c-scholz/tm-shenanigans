@@ -17,7 +17,7 @@ Returns a random fact or a fact that matches the number in the given parameter.
 
 # nickname
 
-To use the command replace the following words in the command with the corresponding text.
+To use the command replace the following keywords in the command with the corresponding values.
 Use `${name}` to display the name in the texts.
 Only replace text inside the backticks ``` `TEXT_TO_REPLACE` ```.
 | VARIABLE | value |
@@ -60,3 +60,19 @@ Returns the author time of the given track number of a campaign.
 `!cotd`
 
 Returns the current TOTD with AT. Tells when next 7pm COTD is or whether Qualification/Knockout stage is in progress.
+
+
+# rank
+
+To use the command replace the following keywords in the command with the corresponding values.
+
+| VARIABLE | value |
+| --- | ---  |
+| PLAYER_ID  | player uid that can be found at the end of the URL of your own Trackmania.io profile page |            
+| PLAYER     | Player name                                                                               |
+
+**Usage**
+
+`!rank`
+
+Returns the Matchmaking rank of the player set in the command.
