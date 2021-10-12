@@ -29,3 +29,18 @@ Only replace text inside the backticks ``` `TEXT_TO_REPLACE` ```.
 `!nickname [twitch_username]`
 
 Returns a random nickname for the default STREAMER_NAME or given username. Will return a default sentence if name cant be found or user issueing the command is the same as the name from the default or param.
+
+
+# at
+
+To use the command replace `CAMPAIGN_ID` with a campaign's Id:
+
+`https://trackmania.io/api/officialcampaign/CAMPAIGN_ID`
+
+You can find the campaign Ids on [trackmania.io](https://trackmania.io/#/campaigns)
+
+**Usage**
+
+`!at [track_number]`
+
+Returns the author time of the given track number of a campaign.
