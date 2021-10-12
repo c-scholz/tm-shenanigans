@@ -19,7 +19,7 @@ Returns a random fact or a fact that matches the number in the given parameter.
 
 To use the command replace the following keywords in the command with the corresponding values.
 Use `${name}` to display the name in the texts.
-Only replace text inside the backticks ``` `TEXT_TO_REPLACE` ```.
+Only replace text **inside** the backticks ``` ` TEXT_TO_REPLACE ` ```.
 | VARIABLE | value |
 | --- | ---  |
 | USER_MSG   | message that displays if user requesting themselves                         |            
@@ -68,8 +68,8 @@ To use the command replace the following keywords in the command with the corres
 
 | VARIABLE | value |
 | --- | ---  |
-| PLAYER_ID  | player uid that can be found at the end of the URL of your own Trackmania.io profile page |            
-| PLAYER     | Player name                                                                               |
+| PLAYER_ID  | player uid that can be found at the end of the URL of your own [Trackmania.io](https://trackmania.io) profile page |         
+| PLAYER     | Player name                                                                                                        |
 
 **Usage**
 
