@@ -68,7 +68,7 @@ To use the command replace the following keywords in the command with the corres
 
 | VARIABLE | value |
 | --- | ---  |
-| PLAYER_ID  | player uid that can be found at the end of the URL of your own [Trackmania.io](https://trackmania.io) profile page |         
+| PLAYER_ID  | player uid that can be found at the end of the URL of your own [trackmania.io](https://trackmania.io) profile page |         
 | PLAYER     | Player name                                                                                                        |
 
 **Usage**
