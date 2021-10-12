@@ -31,7 +31,7 @@ Only replace text **inside** the backticks ``` ` TEXT_TO_REPLACE ` ```.
 
 `!nickname [twitch_username]`
 
-Returns a random nickname of the issued user. If the user has no nickname returns a default message. If user issueing the command is the user that's requested it returns a user message.
+Returns a random nickname of the issued user. If the user has no nickname it returns a default message. If user issueing the command is the user that's requested it returns a user message.
 
 > Note:
 > If you want to contribute your nickname to be publicly available create a Pull Request with the change in the [nicknames.json](https://github.com/c-scholz/tm-shenanigans/blob/master/nicknames.json) file.
