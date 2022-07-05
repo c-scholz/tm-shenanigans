@@ -86,3 +86,15 @@ To use the command replace `PLAYER` in the command code with the Streamer's name
 `!bonk`
 
 Returns a message with a counter.
+
+# medals
+
+| VARIABLE | value |
+| --- | --- |
+| CAMPAIGN_URL | custom campaign URL for example `https://trackmania.io/api/campaign/33721/27523` |
+
+**Usage**
+
+!medals [track number]
+
+Returns the Author and Gold Medal times of the queried track of the custom campaign.
