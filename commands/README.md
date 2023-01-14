@@ -10,7 +10,7 @@ To add the commands to your Nightbot, copy them from the corresponding text file
 
 Returns a random emote based on a weight given in config.
 
-Config:
+**Config:**
 ```js
 cfg = {
   max: number // total amount of lots - has to be more than all emote lots combined
