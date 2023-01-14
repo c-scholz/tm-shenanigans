@@ -3,6 +3,29 @@
 To add the commands to your Nightbot, copy them from the corresponding text file above into the `Message` field of a new command you set up in your Nightbot dashboard under [`commands > custom`](https://nightbot.tv/commands/custom) or add them by using `!addcom [commandname_with_no_spaces] [copied command code]` in your chat.
 
 
+# fishh
+**Usage**
+
+`fishh`
+
+Returns a random emote based on a weight given in config.
+
+Config:
+```js
+cfg = {
+  max: number // total amount of lots - has to be more than all emote lots combined
+  def: string // default emote on "bad draw"
+  emotes: { // emotes
+    key: // with given amount of lots
+      string[] // list of emotes with this amount
+  }
+}
+```
+
+> Note:
+> recommended to use with `fishh` 7tv emote
+> feel free to change to a completely different emote set
+
 # fact
 
 **Usage** 
