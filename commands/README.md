@@ -121,3 +121,5 @@ Returns a message with a counter.
 !medals [track number]
 
 Returns the Author and Gold Medal times of the queried track of the custom campaign.
+
+> Note: Change the campaign id based on the API call of trackmania.io. `https://trackmania.io/#/campaigns/2080/32622` becomes `https://trackmania.io/api/campaign/2080/32622`.
