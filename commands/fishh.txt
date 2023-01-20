@@ -1,5 +1,5 @@
 @$(user) $(eval 
-const cfg={max:100000,def:':fish:',emotes:{10000:[':boot:','FishMoley'],1000:['Joel'],100:['leoJ'],10:['JoelFast'],1:['JoelJAM']}},
+const cfg={max:100000,def:'🐟',emotes:{10000:[':boot:','FishMoley'],1000:['Joel'],100:['leoJ'],10:['JoelFast'],1:['JoelJAM']}},
 r=Math.floor(Math.random()*cfg.max);
 let m=cfg.def,x=0;Object.keys(cfg.emotes).every(k=>cfg.emotes[k].every(e=>(x+=+k)>r?(m=e,0):1));
 m)
