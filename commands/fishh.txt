@@ -1,11 +1,12 @@
-@$(user) $(eval const cfg={ 
-max:1000000, 
-def:'🐟', 
-emotes:{ 
-100000:['👢','FishMoley','AAUGH','SandBag'], 
-10000:['Harold','Muhammed', 'crabRave'], 
-1000:['Christopher','Joel'], 
-100:['Joey','Joeler'], 
-10:['JoelFast'], 
-1:['JoelPride','EvilJoel']}}, 
-r=Math.floor(Math.random()*cfg.max);let m=cfg.def,x=0;Object.keys(cfg.emotes).every(k=>cfg.emotes[k].every(e=>(x+=+k)>r?(m=e,0):1)); m)
+@$(user) $(eval const 
+cfg={ 
+  max:1000000, 
+  def:'🐟', 
+  emotes:{ 
+    100000:['👢','FishMoley','AAUGH','SandBag'], 
+    10000:['Harold','Muhammed', 'crabRave'], 
+    1000:['Christopher','Joel'], 
+    100:['Joey','Joeler'], 
+    10:['JoelFast'], 
+    1:['JoelPride','EvilJoel']
+}}, r=Math.floor(Math.random()*cfg.max);let m=cfg.def,x=0;Object.keys(cfg.emotes).every(k=>cfg.emotes[k].every(e=>(x+=+k)>r?(m=e,0):1)); m)
