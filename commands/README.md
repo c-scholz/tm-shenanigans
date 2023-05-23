@@ -23,8 +23,8 @@ cfg = {
 ```
 
 > Note:
-> Recommended to use with `fishh` 7tv emote. 
-> Feel free to change to a completely different emote set
+> Recommended to use with `fishh` 7tv emote and the emotes from this set: [7tv](https://7tv.app/emote-sets/63c907d8dedb49b243838d89).
+> Feel free to change to a completely different emote set.
 
 # fact
 
